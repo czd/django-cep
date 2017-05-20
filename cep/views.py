@@ -6,11 +6,9 @@
 
 
 # -*- coding: utf-8 -*-
-from django.http import HttpResponse, JsonResponse
+from django.http import JsonResponse
 import urllib2
 import re
-from xml.dom import minidom
-import urllib
 import json
 
 def cep(numero):
